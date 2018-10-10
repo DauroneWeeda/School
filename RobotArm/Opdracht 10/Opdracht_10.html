@@ -1,0 +1,40 @@
+<!--Daurone Weeda<br> -->
+<!--Applicatieontwikkeling/Webdesign -->
+
+<html>
+    <body>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <script src="./robot-arm.js"></script>
+        <script>
+            // Robotarm bibliotheek inladen
+            var canvas = document.getElementById("canvas");
+            var robotArm = new RobotArm(canvas);
+            
+            // Het level inladen
+            robotArm.loadLevel("exercise 10");
+            
+            // Jou instructies volgen hier
+            for (var a=9; a >= 0 ; a=a-2) {
+                
+                robotArm.grab();
+                
+                for (var i = 0; i < a; i++) {
+                    robotArm.moveRight();
+                }
+
+                robotArm.drop();
+              
+                for (var o = 0; o < a-1  ; o++) {
+                    robotArm.moveLeft();
+                }
+            
+           }
+
+        
+            // De door jou opgegeven instructies uitvoeren
+            robotArm.speed = 1000;
+            robotArm.run();
+            
+        </script>
+    </body>
+</html>
