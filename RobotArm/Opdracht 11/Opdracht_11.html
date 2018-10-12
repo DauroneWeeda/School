@@ -12,11 +12,13 @@
             
             // Het level inladen
             robotArm.loadLevel("exercise 11");
-            
+            for (var p =0; p < 10; p++) {
+                robotArm.moveRight();
+            }
             // Jou instructies volgen hier
-           for (var i = 0; i < 9; i++ ){
+           for (var i = 0; i < 13; i++ ){
            
-           robotArm.moveRight();
+           robotArm.moveLeft();
            robotArm.grab();
            robotArm.scan();
 
