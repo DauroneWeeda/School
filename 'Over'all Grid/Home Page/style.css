@@ -86,7 +86,7 @@ p {
 
 #car {
 	margin-top: 20px;
-	margin-left: 150px;
+	margin-left: 80px;
 	height: 300px;
 	border: white solid 10px;
 }
@@ -116,15 +116,15 @@ p {
 	margin-left: 55px;
 }
 
+.audi {
+	height: 150px;
+}
+
+.BMW {
+	height: 150px;
+}
+
 .mercedes {
-	height: 150px;
-}
-
-.RangeRover {
-	height: 150px;
-}
-
-.chevrolet {
 	height: 150px;
 }
 
