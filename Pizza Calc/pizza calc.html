@@ -1,0 +1,29 @@
+<!--Daurone Weeda<br> -->
+<!--Applicatieontwikkeling/Webdesign -->
+<html>
+	<head>
+		<title>Pizza Calc</title>
+	</head>
+<body>
+		<script>
+			var smallpizzaamount = prompt('what is the amount of small pizzas that you want?'); 
+			var normalpizzaamount = prompt('what is the amount of normal pizzas that you want?');
+			var largepizzaamount = prompt('what is the amount of large pizzas that you want?');
+		// prize per pizza & size
+		const small = 2.50;
+		const normal = 3.25;
+		const large = 4.75; 
+
+			var total =(small*smallpizzaamount + normal*normalpizzaamount + large*largepizzaamount); // deze lijn met code zorgt ervoor dat alles samen worden gezet met een totaal prijs afhangkelijk van de bestelling 
+
+				// receipt code 
+				document.write (smallpizzaamount + " x small pizza's &euro; " + (smallpizzaamount * small) + "<br>"); // zorgt ervoor dat de prijzen op het scherm komen te staan line 20 t/m 23 
+				document.write (normalpizzaamount + " x normal pizza's &euro; " + (normalpizzaamount * normal) + "<br>");
+				document.write (largepizzaamount + " x large pizza's &euro; " + (largepizzaamount * large) + "<br>");
+				document.write ('<hr>');
+				document.write (total+ ' ;  total'); // totaal prijs wordt zichtbaar
+		</script>
+		  
+
+</body>
+</html>

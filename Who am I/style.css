@@ -1,0 +1,101 @@
+body {
+	background-color: Black;
+	text-align: left; /* IE hack */
+	font-family: comic sans;
+	color: white;
+}
+
+.myImage{
+border: solid ;
+color: gold; 
+width:220px; 
+
+}
+
+.bold{
+	font-weight: bolder;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.center{
+text-align: center;
+}
+ul {
+
+
+width: 100%;
+float: left;
+margin-top: 8px;
+
+}	
+
+li {
+
+display: inline-block;
+padding: 15px 30px;
+
+
+
+}
+
+a {
+
+text-align: center;
+color: white;
+
+
+
+}
+
+a:hover {
+	background-color: darkred 
+}
+
+
+.CV{
+	height: 25%;
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.left {
+	text 
+}
+
+{
+    box-sizing: border-box;
+}
+
+.Uittreksel_diplomaregister{
+	margin-left: 50px;
+	margin-right: 25px;
+
+
+}
+
+.Uittreksel_diplomaregister2{
+	margin-left: 31px;
+	margin-bottom: 0px;
+	float: top;
+
+
+}
+
+.Uittreksel_diplomaregister3{
+	margin-left: 50px;
+	margin-right: 25px;
+
+
+} 
+.Death_note{
+border: solid ;
+color: darkred;
+width:220px;
+}
