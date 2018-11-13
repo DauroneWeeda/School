@@ -4,10 +4,50 @@
 <html>
 <head>
  <title>Horeca App</title>
-<script src="Script_Horeca.js" type="text/javascript"></script>
-<link rel="stylesheet" href="Gamestyle.css"> 
-
+      
 </head>
+<body>
+		<script>
+			
+		const Soda = 2.50;
+		const Beer = 3.25;
+		const Wine = 4.75; 		
+		
+		var Wineamount;	
+		var Beeramount;
+		var Sodaamount;
+
+			var asking = true;
+			var order = false;
+
+			while(asking) {
+				order = prompt("What would you like to order?(beer, wine, soda,)");
+
+				if(order == "wine");
+					Wineamount = parseInt(prompt("what is the amount of wine that you want?"));	
+				
+				if(order == "beer");
+					Beeramount = parseInt(prompt("what is the amount of beer that you want?"));	
+				
+				if(order == "soda");
+					Sodaamount = parseInt(prompt("what is the amount of soda that you want?"));	
+				
+				if(order == "stop");
+				asking = false;
+				}
+			var total = ( Wine*Wineamount + Beer*Beeramount + Soda*Sodaamount);
+	// receipt code 
+		document.write (Wineamount + " x wine &euro; " + (Wineamount * Wine) + "<br>"); 
+		document.write (Beeramount + " x beer &euro; " + (Beeramount * Beer) + "<br>");
+		document.write (Sodaamount + " x Soda &euro; " + (Sodaamount * Soda) + "<br>");
+		document.write ('<hr>');
+		document.write (total+ ' ;  total'); 
+
+			
+				
+		</script>
+		 
+
 
 </body>
 </html>
