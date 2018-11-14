@@ -21,20 +21,31 @@
 			var order = false;
 
 			while(asking) {
+
+
 				order = prompt("What would you like to order?(beer, wine, soda,)");
 
-				if(order == "wine");
-					Wineamount = parseInt(prompt("what is the amount of wine that you want?"));	
-				
-				if(order == "beer");
-					Beeramount = parseInt(prompt("what is the amount of beer that you want?"));	
-				
-				if(order == "soda");
-					Sodaamount = parseInt(prompt("what is the amount of soda that you want?"));	
-				
-				if(order == "stop");
+				 if(order == "stop") {
 				asking = false;
 				}
+				else if(order == "wine") {
+					Wineamount = prompt("what is the amount of wine that you want?");	
+				}
+				
+				else if(order == "beer") {
+					Beeramount = prompt("what is the amount of beer that you want?");	
+				}
+				
+				else if(order == "soda") {
+					Sodaamount = prompt("what is the amount of soda that you want?");	
+				}
+				  
+					else{ alert ("We don't serve this here");
+					} 
+				
+
+
+			}
 			var total = ( Wine*Wineamount + Beer*Beeramount + Soda*Sodaamount);
 	// receipt code 
 		document.write (Wineamount + " x wine &euro; " + (Wineamount * Wine) + "<br>"); 
