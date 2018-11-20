@@ -1,0 +1,38 @@
+body{
+	background-color: lightblue;
+}
+
+h1{
+	font-family: Corbel;
+	color: brown;
+	margin-bottom: 10pt;
+}
+
+h2{
+	font-family: Corbel;
+	color: brown;
+	font-weight: normal;
+	margin-bottom: 5pt;
+}
+
+p{
+	font-family: Georgia;
+	color: brown;
+	margin-top: 0pt;
+}
+
+ul{
+	font-family: Georgia;
+	color: brown;
+	margin-top: 0pt;
+}
+
+p.intro{
+	font-style: italic;
+	color: grey;
+}
+
+img{
+	border-style: solid;
+	border-color: white;
+	padding: 4pt;

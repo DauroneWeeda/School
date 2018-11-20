@@ -1,0 +1,35 @@
+body{
+	background-color: navy;
+}
+
+h1{
+	font-family: Cambria;
+	color: Red;
+	font-weight: normal;
+}
+
+h2{
+	font-family: Cambria;
+	color: Red;
+	font-weight: normal;
+}
+
+p{
+	font-family: Calibri;
+	color: white;
+}
+
+p.intro{
+	font-style: italic;
+}
+
+li{
+	font-family: Calibri;
+	color: white;
+}
+
+img{
+	border-style: solid;
+	border-color: red;
+	padding: 5pt;
+}
