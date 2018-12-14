@@ -1,0 +1,31 @@
+.bgc{
+	background-color:grey;
+}
+#container{
+	background-color: white;
+	width: 600px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+#button_1{
+width: 150px;
+height:50px;
+margin: 25px 0 0 20px;
+color: white;
+background-color: green; 
+}
+#button_2{
+	width: 150px;
+	height: 50px;
+	margin: 25px 0 0 20px;
+	color: white;
+	background-color: yellow;
+}
+#button_3{
+  width: 150px;
+  height: 50px;
+  margin: 25px 0 0 20px;
+  color: white;
+  background-color: blue;
+}
