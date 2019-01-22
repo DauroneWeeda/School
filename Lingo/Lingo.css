@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+}
+
+.bgc{
+	background-color:white;
+}
+#container{
+	background-color: grey;
+	width: 600px;
+	height: 500px;
+	margin: 0 auto;
+
+}
+
+#container {
+	width: 480px;
+	color: white;
+	border-color: white;  
+}
+
+#container > div > div {
+	width: 90px;
+	height: 90px;
+	background-color: lightblue;
+	border-radius: 10px;
+	margin: 3px;
+	display: inline-block;
+}
+
+#container > div > div > p {
+	font-size: 50px;
+	line-height: 90px;
+	text-align: center;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	margin: 0;
+}
+
+#startButton{
+	font-size: 20px;  
+	text-align: center; 
+	background-color: lightgreen;
+	border-color: green;
+	border-width: 5px;
+	position: center; 
+
+	
+}
